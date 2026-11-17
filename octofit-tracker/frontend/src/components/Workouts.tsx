@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { CapabilityCard } from './CapabilityCard.js';
-
+// This component displays workout suggestions based on the user's email
 export default function Workouts() {
   const [email, setEmail] = useState('mona@example.com');
   return (
